@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Menu bên trái */
+    .sidebar {
+      width: 200px;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      padding: 20px 10px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ecf0f1;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
+    .sidebar a:hover {
+      background-color: #34495e;
+    }
+
+    /* Nội dung bên phải */
+    .content {
+      flex: 1;
+      padding: 40px;
+      background-color: #ecf0f1;
+      box-sizing: border-box;
+    }
+
+    .content h1 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menu trái -->
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <a href="#">Trang chủ</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Dịch vụ</a>
+    <a href="#">Liên hệ</a>
+  </div>
+
+  <!-- Nội dung phải -->
+  <div class="content">
+    <h1>Xin chào 👋</h1>
+    <p>Chào mừng bạn đến với website đầu tiên của mình!</p>
+    <p>Hãy chọn menu bên trái để điều hướng.</p>
+  </div>
+</body>
+</html>
